@@ -1,4 +1,31 @@
+I use dwm as my window manager (via startx) on Gentoo Linux.
 
+First see: https://dwm.suckless.org
+
+Patches applied:
+1. alpha 
+2. three column layout extended (see below)
+3. cyclelayouts
+4. default transparency
+5. fullgaps
+
+Customization: noapps
+
+---------------------------------------------------------------------
+Concerning the three column layout: 
+https://dwm.suckless.org/patches/three-column/
+...i changed the tcl.c file enough, so as to rename it to adatcl.c. 
+You can still find the original file inside the refer folder. 
+The reason for change was to extend the fullgaps patch to apply to
+the three column layout as well.
+---------------------------------------------------------------------
+Inside the refer folder there are files for simple reference, since
+they are related to dwm:
+1. compton.conf - My configuration file for Compton compositor
+2. .xinitrc - For startx
+3. tcl.c - see above
+
+What follows is the Original README from Suckless/dwm.
 
 
 ==========================
