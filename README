@@ -24,6 +24,10 @@ they are related to dwm:
 1. compton.conf - My configuration file for Compton compositor
 2. .xinitrc - For startx
 3. tcl.c - see above
+---------------------------------------------------------------------
+All changes i made are preceded by comments starting with "ada", so
+that they can be traced by searching for "ada" in the code. 
+---------------------------------------------------------------------
 
 What follows is the Original README from Suckless/dwm.
 
