@@ -7,7 +7,6 @@ First see: https://dwm.suckless.org
 All changes i make are preceded by comments starting with "ada", so
 that they can be easily traced by searching for "ada" in the code. 
 ---------------------------------------------------------------------
-
 Patches applied:
 1. alpha 
 2. three column layout extended (see below)
@@ -17,14 +16,14 @@ Patches applied:
 
 Customization: noapps
 
-IMPORTANT NOTE:
-Since i have hardcoded my preferred font into dwm (see config.h),
-this will only work if:
-1. you either install the same font:
-   Libertine fonts (https://linuxlibertine.org)
-   Gentoo package: media-fonts/libertine
-2. you change config.h (lines 14, 15) by placing your font of choice.
-
+IMPORTANT NOTES:
+1. Since i have hardcoded my preferred font into dwm (see config.h),
+   this will only work if:
+   a. you either install the same font:
+      Libertine fonts (https://linuxlibertine.org)
+      Gentoo package: media-fonts/libertine
+   b. you change config.h (lines 14, 15) by placing your font of choice.
+2. As said by suckless (see below), remember to check config.mk
 ---------------------------------------------------------------------
 Concerning the three column layout: 
 https://dwm.suckless.org/patches/three-column/
@@ -47,11 +46,11 @@ safely delete it.
 
 What follows is the Original README from Suckless/dwm.
 
-
-
 ==========================
 Original Suckless' README
 ==========================
+
+
 
 dwm - dynamic window manager
 ============================

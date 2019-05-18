@@ -11,6 +11,7 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 /* ada defaulttransparency patch: next 1 line */
 static const double defaultopacity  = 0.75;
+/* ada font: next 2 lines */
 static const char *fonts[]          = { "Biolinum:size=10" };
 static const char dmenufont[]       = "Biolinum:size=10";
 static const char col_gray1[]       = "#222222";
