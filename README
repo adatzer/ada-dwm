@@ -11,6 +11,14 @@ Patches applied:
 
 Customization: noapps
 
+IMPORTANT NOTE:
+Since i have hardcoded my preferred font into dwm (see config.h),
+this will only work if:
+1. you either install the same font:
+   Libertine fonts (https://linuxlibertine.org)
+   Gentoo package: media-fonts/libertine
+2. you change config.h (lines 14, 15) by placing your font of choice.
+
 ---------------------------------------------------------------------
 Concerning the three column layout: 
 https://dwm.suckless.org/patches/three-column/
@@ -24,6 +32,9 @@ they are related to dwm:
 1. compton.conf - My configuration file for Compton compositor
 2. .xinitrc - For startx
 3. tcl.c - see above
+This folder is not needed to "make clean install" dwm, so you can
+safely delete it.
+--------------------------------------------------------------------
 
 What follows is the Original README from Suckless/dwm.
 
