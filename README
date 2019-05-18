@@ -2,6 +2,12 @@ I use dwm as my window manager (via startx) on Gentoo Linux.
 
 First see: https://dwm.suckless.org
 
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+All changes i make are preceded by comments starting with "ada", so
+that they can be easily traced by searching for "ada" in the code. 
+---------------------------------------------------------------------
+
 Patches applied:
 1. alpha 
 2. three column layout extended (see below)
@@ -32,11 +38,15 @@ they are related to dwm:
 1. compton.conf - My configuration file for Compton compositor
 2. .xinitrc - For startx
 3. tcl.c - see above
+
 This folder is not needed to "make clean install" dwm, so you can
 safely delete it.
 --------------------------------------------------------------------
+--------------------------------------------------------------------
+
 
 What follows is the Original README from Suckless/dwm.
+
 
 
 ==========================
