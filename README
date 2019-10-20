@@ -5,10 +5,10 @@ First see: https://dwm.suckless.org
 ---------------------------------------------------------------------
 ---------------------------------------------------------------------
 All changes i make are preceded by comments starting with "ada", so
-that they can be easily traced by searching for "ada" in the code. 
+that they can be easily traced by searching for "ada" in the code.
 ---------------------------------------------------------------------
 Patches applied:
-1. alpha 
+1. alpha
 2. three column layout extended (see below)
 3. cyclelayouts
 4. default transparency
@@ -25,10 +25,10 @@ IMPORTANT NOTES:
    b. you change config.h (lines 14, 15) by placing your font of choice.
 2. As said by suckless (see below), remember to check config.mk
 ---------------------------------------------------------------------
-Concerning the three column layout: 
+Concerning the three column layout:
 https://dwm.suckless.org/patches/three-column/
-...i changed the tcl.c file enough, so as to rename it to adatcl.c. 
-You can still find the original file inside the refer folder. 
+...i changed the tcl.c file enough, so as to rename it to adatcl.c.
+You can still find the original file inside the refer folder.
 The reason for change was to extend the fullgaps patch to apply to
 the three column layout as well.
 ---------------------------------------------------------------------
