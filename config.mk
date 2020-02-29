@@ -10,10 +10,10 @@ MANPREFIX = ${PREFIX}/share/man
 X11INC = /usr/X11R6/include
 X11LIB = /usr/X11R6/lib
 
-# ada Mar2019
+# ada
 # Xinerama, comment if you don't want it
-#XINERAMALIBS  = -lXinerama
-#XINERAMAFLAGS = -DXINERAMA
+XINERAMALIBS  = -lXinerama
+XINERAMAFLAGS = -DXINERAMA
 
 # freetype
 FREETYPELIBS = -lfontconfig -lXft
